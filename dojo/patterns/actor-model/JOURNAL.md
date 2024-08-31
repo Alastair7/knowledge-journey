@@ -1,6 +1,7 @@
 # ACTOR MODEL PATTERN
 
 **[31/08/2024]**
+
 When sending a message to another actor what it really does `actor.SendMessage()` is:
 
 1. Obtain the actor from the actor system that will receive the message.
